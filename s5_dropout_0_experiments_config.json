@@ -1,0 +1,884 @@
+[
+    {
+        "id": 1,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A1Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A1Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 2,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A1Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A1Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 3,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A1Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A1Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 4,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A1Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A1Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 16
+    },
+    {
+        "id": 5,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A1Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A3Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 6,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A1Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A3Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 7,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A1Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A3Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 8,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A1Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A3Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 9,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A1Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A4Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 10,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A1Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A4Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 11,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A1Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A4Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 12,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A1Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A4Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 13,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A3Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A1Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 14,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A3Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A1Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 15,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A3Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A1Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 16,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A3Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A1Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 17,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A3Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A3Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 18,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A3Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A3Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 19,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A3Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A3Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 20,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A3Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A3Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 21,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A3Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A4Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 22,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A3Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A4Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 23,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A3Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A4Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 24,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A3Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A4Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 25,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A4Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A1Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 26,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A4Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A1Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 27,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A4Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A1Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 28,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A4Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A1Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 29,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A4Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A3Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 30,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A4Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A3Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 31,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A4Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A3Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 32,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A4Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A3Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 33,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A4Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A4Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 34,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A4Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A4Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 35,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A4Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A4Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": 0.99,
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    },
+    {
+        "id": 36,
+        "dataset": {
+            "name": "s5",
+            "sub_name": "A4Benchmark",
+            "path": "datasets/datasets_files/yahoo_s5/A4Benchmark",
+            "split": [
+                0.6,
+                0.1,
+                0.3
+            ]
+        },
+        "seq_len": 24,
+        "step_size": 1,
+        "layers": [
+            16,
+            8
+        ],
+        "dropout": 0.0,
+        "optimizer": "Adam",
+        "threshold": "adaptive_threshold_detector",
+        "epochs": 20,
+        "patience": 5,
+        "batch_size": 32
+    }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "dataset": {
+      "name": "nab",
+      "sub_name": "ec2_cpu_utilization_24ae8d",
+      "path": "N/A",
+      "split": [0.6, 0.1, 0.3]
+    },
+    "seq_len": 100,
+    "step_size": 1,
+    "layers": [64, 64],
+    "dropout": 0.2,
+    "optimizer": "Adam",
+    "threshold": "adaptive_threshold_detector",
+    "epochs": 10,
+    "patience": 5,
+    "batch_size": 8
+  },
+  {
+    "id": 2,
+    "dataset": {
+      "name": "nab",
+      "sub_name": "ec2_cpu_utilization_24ae8d",
+      "path": "N/A",
+      "split": [0.6, 0.1, 0.3]
+    },
+    "seq_len": 24,
+    "step_size": 1,
+    "layers": [16, 8],
+    "dropout": 0.2,
+    "optimizer": "Adam",
+    "threshold": 0.97,
+    "epochs": 10,
+    "patience": 5,
+    "batch_size": 8
+  },
+  {
+    "id": 3,
+    "dataset": {
+      "name": "nab",
+      "sub_name": "ec2_cpu_utilization_24ae8d",
+      "path": "N/A",
+      "split": [0.6, 0.1, 0.3]
+    },
+    "seq_len": 24,
+    "step_size": 1,
+    "layers": [16, 8],
+    "dropout": 0.2,
+    "optimizer": "Adam",
+    "threshold": "adaptive_threshold_detector",
+    "epochs": 15,
+    "patience": 5,
+    "batch_size": 8
+  }
+]

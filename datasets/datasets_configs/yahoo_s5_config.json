@@ -1,0 +1,22 @@
+{
+  "A1Benchmark": {
+    "value_column": "value",
+    "label_column": "is_anomaly",
+    "file_name_pattern": "real_\\d+.csv"
+  },
+  "A2Benchmark": {
+    "value_column": "value",
+    "label_column": "is_anomaly",
+    "file_name_pattern": "synthetic_\\d+.csv"
+  },
+  "A3Benchmark": {
+    "value_column": "value",
+    "label_column": "anomaly",
+    "file_name_pattern": "A3Benchmark-TS\\d+.csv"
+  },
+  "A4Benchmark": {
+    "value_column": "value",
+    "label_column": "anomaly",
+    "file_name_pattern": "A4Benchmark-TS\\d+.csv"
+  }
+}
